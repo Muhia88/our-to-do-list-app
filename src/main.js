@@ -1,5 +1,10 @@
-import { createApp } from 'vue'
+
+import React from 'react';
 import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+ReactDOM.createRoot(document.getElementById('app')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
