@@ -84,7 +84,7 @@ function App() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text }),
       });
-      if (!response.ok) throw new Error('Failed to save or edit.');
+      if (!response.ok) throw new Error('Failed to save or edit');
       const updatedTodo = await response.json();
       setTodos(todos.map((t) => (t.id === id ? updatedTodo : t)));
     } catch (err) {
