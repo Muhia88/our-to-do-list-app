@@ -66,7 +66,13 @@ You can use JSON Server to quickly mock an API.
 
 Your API will be available at `http://localhost:3001/todos`
 
+---
+
 ## 📜 License 
 This project is open source and available under the MIT License.
+
+---
+
+
 
 
