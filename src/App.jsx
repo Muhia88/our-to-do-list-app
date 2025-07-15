@@ -84,7 +84,7 @@ function App() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text }),
       });
-      if (!response.ok) throw new Error('Failed to save edit.');
+      if (!response.ok) throw new Error('Failed to save or edit.');
       const updatedTodo = await response.json();
       setTodos(todos.map((t) => (t.id === id ? updatedTodo : t)));
     } catch (err) {
@@ -95,7 +95,7 @@ function App() {
   return (
     <div className="bg-slate-100 min-h-screen font-sans flex items-center justify-center">
       <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg w-full max-w-lg mx-4">
-        <Header title="My To-Do List" />
+        <Header title="Our To-Do List" />
         <ErrorMessage message={error} />
         <AddTodoForm onAddTodo={handleAddTodo} />
         
