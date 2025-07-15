@@ -47,7 +47,7 @@
 4. Open your browser at `http://localhost:5173`
 
 ###  Backend API
-This app expects a REST API running at http://localhost:3001/todos.
+This app expects a REST API running at `http://localhost:3001/todos`
 You can use JSON Server to quickly mock an API.
 
 1. Setup JSON Server:
