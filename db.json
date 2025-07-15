@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "Finish setting up the project environment",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "text": "Create all the React components",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "text": "Connect the app to the json-server",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "text": "Add styling with Tailwind CSS",
+      "completed": false
+    },
+    {
+      "id": "5",
+      "text": "Deploy the final application",
+      "completed": false
+    }
+  ]
+}
