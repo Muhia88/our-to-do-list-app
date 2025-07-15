@@ -33,9 +33,8 @@
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/<your-username>/our-todo-list-app.git
-cd our-todo-list-app
+  ```bash
+   git clone https://github.com/<your-username>/our-todo-list-app.git
    ```
 2. Install dependencies:
    ```bash
@@ -55,11 +54,17 @@ You can use JSON Server to quickly mock an API.
   ```bash
   npm install -g json-server
   ```
-2. 
-
+2. Create a db.json file:
 {
   "todos": []
 }
+
+3. Run JSON Server:
+  ```bash
+  json-server --watch db.json --port 3001
+  ```
+
+Your API will be available at `http://localhost:3001/todos`
 
 ## 📜 License 
 This project is open source and available under the MIT License.
