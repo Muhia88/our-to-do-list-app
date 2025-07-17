@@ -26,9 +26,9 @@
 
 ### Prerequisites
 
-- Node.js (v16+)
+- Node.js 
 - npm or yarn
-- (Optional) JSON Server for a quick mock API
+- JSON Server for a quick mock API
 
 ### Installation
 
